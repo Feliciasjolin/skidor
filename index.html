@@ -3,18 +3,92 @@
 <head>
  <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/grid.css">
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&family=Noto+Serif+Display:wght@300&display=swap" rel="stylesheet">
+
   <title>Skidor</title>
  </head>
  <body>
-   <div class="start">
-     <h1 class="huvudr"> Skidåkning </h1>
+
+<div class="start">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Meny</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="lofs.html">Lofsdalen</a>
+    <a href="bjorn.html">Björnrike</a>
+    <a href="krov.html">Courmayeur</a>
+  </div>
+</div>
+
+
+     <h1 class="huvudr"> SKIDÅKNING </h1>
+
+     <!--bildspel-->
+
+     <div class="bildspel-container">
+
+       <!--första bilden-->
+
+   <div class="mySlides fade">
+     <div class="numbertext">1 / 3</div>
+     <img src="img/wow.jpg" style="width:100%">
 
    </div>
+
+
+          <!--andra bilden-->
+   <div class="mySlides fade">
+     <div class="numbertext">2 / 3</div>
+     <img src="img/gul.jpg" style="width:100%">
+
+   </div>
+
+          <!--tredje bilden-->
+   <div class="mySlides fade">
+     <div class="numbertext">3 / 3</div>
+     <img src="img/skidli.jpg" style="width:100%">
+
+   </div>
+
+   <a class="prev" onclick="plusSlides(-1)">❮</a>
+   <a class="next" onclick="plusSlides(1)">❯</a>
+
+   </div>
+   <br>
+
+ <div class="dot-container" style="text-align:center">
+     <span class="dot" onclick="currentSlide(1)"></span>
+     <span class="dot" onclick="currentSlide(2)"></span>
+     <span class="dot" onclick="currentSlide(3)"></span>
+   </div>
+
+
+
+     <p class="inled"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet,
+      consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<h2 class="hlor"> Lorem </h2>
+<p class= lorom> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+
+<img  class="lofi" src="img/lofstom.jpg" alt="bild tagen i Lofsdalen">
+<a class="la" href="lofs.html"><p>Lofsdalen</p></a>
+<img class="bjoi" src="img/bjornsn.jpg" alt="bild från Björnrike">
+<a class="ba"href="bjorn.html"><p>Björnrike</p></a>
+<img class="coui" src="img/korvblå.JPG" alt="bild från Courmayeur">
+<a class="ca"href="krov.html"><p>Courmayeur</p></a>
+
+
+
+
+   </div>
+
      <script src="js/script.js"></script>
    </body>
    </html>
