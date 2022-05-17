@@ -192,6 +192,7 @@ font-size: 2em;
 .hb {
   font-family: 'Rubik Puddles', cursive;
   font-size: 3.9em;
+  color: rgb(167, 229, 242);
   border-bottom:0.1em solid rgba(77, 210, 233, 0.85);
   padding: 0.4em;
 }
@@ -210,6 +211,7 @@ font-size: 2em;
 .hc {
   font-family: 'Rubik Puddles', cursive;
   font-size: 3.9em;
+  color: rgb(167, 229, 242);
   border-bottom:0.1em solid rgba(77, 210, 233, 0.85);
   padding: 0.4em;
 }
