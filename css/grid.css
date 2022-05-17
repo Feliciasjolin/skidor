@@ -132,7 +132,7 @@ padding: 0;
 }
 
 .hl {
-  grid-column: 4/8;
+  grid-column: 1/-1;
   grid-row: 1/2;
   text-align: center;
 }
@@ -156,7 +156,7 @@ padding: 0;
 }
 
 .hb {
-  grid-column: 4/8;
+  grid-column: 1/-1;
   grid-row: 1/2;
   text-align: center;
 }
@@ -182,7 +182,7 @@ padding: 0;
 }
 
 .hc {
-  grid-column: 4/8;
+  grid-column: 1/-1;
   grid-row: 1/2;
   text-align: center;
 }
