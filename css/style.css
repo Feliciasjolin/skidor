@@ -230,3 +230,9 @@ font-size: 2em;
   font-family: 'Noto Serif Display', serif;
   align-self: center;
 }
+
+@media only screen and (max-width: 414px) {
+  .hb, .hc, .hl {
+    font-size: 1.8em;
+  }
+}
