@@ -167,20 +167,20 @@ font-size: 2em;
       font-family: 'Noto Serif Display', serif;
       font-size: 1.2em;
 }
-
+}
 
 /*loft sidan*/
 .hl {
   font-family: 'Rubik Puddles', cursive;
   font-size: 3.7em;
   color: rgb(167, 229, 242);
-  padding: 1.6vw;
-  border: 0.2vw solid rgba(77, 210, 233, 0.85);
-  border-radius: 1.7vw;
-  padding: 0.4vw;
+  padding: 1.2em;
+  border: 0.06em solid rgba(77, 210, 233, 0.85);
+  border-radius: 0.5em;
+  padding: 0.2em;
 }
 
-.staki, .villa {
+.vila {
   width: 100%;
 }
 
@@ -195,12 +195,20 @@ font-size: 2em;
   font-family: 'Rubik Puddles', cursive;
   font-size: 3.7em;
   color: rgb(167, 229, 242);
-  padding: 1.6vw;
-  border: 0.2vw solid rgba(77, 210, 233, 0.85);
-  border-radius: 1.7vw;
-  padding: 0.4vw;
+  padding: 1.2em;
+  border: 0.06em solid rgba(77, 210, 233, 0.85);
+  border-radius: 0.5em;
+  padding: 0.2em;
 }
 
+.ut {
+  width: 100%;
+}
+
+.bjornlor {
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
 
 
 /*korv sidan*/
@@ -208,10 +216,10 @@ font-size: 2em;
   font-family: 'Rubik Puddles', cursive;
   font-size: 3.7em;
   color: rgb(167, 229, 242);
-  padding: 1.6vw;
-  border: 0.2vw solid rgba(77, 210, 233, 0.85);
-  border-radius: 1.7vw;
-  padding: 0.4vw;
+  padding: 2.5em;
+  border: 0.06em solid rgba(77, 210, 233, 0.85);
+  border-radius: 0.5em;
+  padding: 0.2em;
 }
 
 .fem {
