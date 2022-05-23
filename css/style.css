@@ -3,7 +3,7 @@
 /*här bestämer jag bland annat vilken bakrundsfärg den ska ha och textens färg*/
 .dropbtn {
   background-color: rgb(27, 180, 246);
-  color: white;
+  color: rgb(249, 249, 249);
   padding: 1.1em;
   font-size: 1.1em;
   border: none;
