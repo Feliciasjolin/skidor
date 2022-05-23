@@ -1,3 +1,6 @@
+
+/*stylar min dropdown meny*/
+/*här bestämer jag bland annat vilken bakrundsfärg den ska ha och textens färg*/
 .dropbtn {
   background-color: rgb(27, 180, 246);
   color: white;
@@ -7,6 +10,7 @@
   cursor: pointer;
 }
 
+/*här bestämmer jag vilken färg meny "symbolen" får om man sätter musen på den*/
 .dropbtn:hover, .dropbtn:focus {
   background-color:rgb(11, 134, 187);
 }
@@ -16,6 +20,7 @@
   display: inline-block;
 }
 
+/* bestämmer hur det ska se ut när man trycker på meny symbolen*/
 .dropdown-content {
   display: none;
   position: absolute;
@@ -26,23 +31,26 @@
   z-index: 1;
 }
 
+/* bestämmer hur länkarna ska se ut*/
 .dropdown-content a {
   color: black;
   padding: 0.75em 1.2em;
   text-decoration: none;
   display: block;
 }
-
+/* bestämmer hur länkarna ska se ut när man sätter musen över*/
 .dropdown a:hover {background-color: #ddd;}
 
 .show {display: block;}
 
+/*stylar min h1*/
 .huvudr {
 font-family: 'Noto Serif Display', serif;
 font-size: 3.5em;
 border-bottom:0.4vw solid rgb(27, 180, 246);
 padding: 1vw;
 }
+
 /*bildspelet*/
 
  {box-sizing: border-box}
@@ -50,14 +58,14 @@ body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none; width:100%;}
 img {vertical-align: middle;}
 
-/* Slideshow container */
+/* bilspels container */
 .bildspel-container {
   max-width: 100em;
   position: relative;
   margin: auto;
 }
 
-/* Next & previous buttons */
+/* Next & previous buttons, bestämmer hur de ska se ut, tex hur stor de ska vara*/
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -79,14 +87,14 @@ img {vertical-align: middle;}
   border-radius: 0.3em 0 0 0.3em;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+/* när man rör med musen på en av knapparna, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
 
 
-/* Nummer texten i vänstra hörnet */
+/* Nummer-texten i vänstra hörnet */
 .numbertext {
   color: #eff1e1;
   font-size: 0.9em;
@@ -96,7 +104,7 @@ img {vertical-align: middle;}
 }
 
 
-/* prickarna */
+/* prickarna, bestämmer strolek och färg*/
 .dot {
   cursor: pointer;
   height: 1em;
@@ -108,6 +116,7 @@ img {vertical-align: middle;}
   transition: background-color 0.6s ease;
 }
 
+/* prickarna ändra färg när man rör med musen och när man byter bild*/
 .active, .dot:hover {
   background-color: #717171;
 }
@@ -128,23 +137,23 @@ img {vertical-align: middle;}
 }
 
 
-.bilds{
-width: 120%;
-}
 
 .inled{
   align-self: center;
 }
 
+/* bestämer vilken font texterna ska ha*/
 .inled, .hlor, .lorom{
   font-family: 'Noto Serif Display', serif;
 }
 
+/*h2 (Lorem)*/
 .hlor {
 align-self: center;
 font-size: 2em;
 }
 
+/*bilderna som har länkarna på sig, gör en border-radius (en ram) runt dem*/
 .lofi, .bjoi, .coui {
   width: 100%;
   border: 0.2em solid rgb(27, 180, 246);
@@ -152,6 +161,7 @@ font-size: 2em;
   padding: 0.5em;
 }
 
+/*länkarna*/
 .la, .ba, .ca {
     text-decoration: none;
     color:rgb(0, 0, 0);
@@ -159,6 +169,8 @@ font-size: 2em;
     font-family: 'Noto Serif Display', serif;
     font-size: 1.5em;
 }
+
+/*anpassar text-länkarna till mindre skärmar*/
 @media only screen and (max-width:500px){
 
   .la, .ba, .ca {
@@ -174,15 +186,17 @@ font-size: 2em;
 .hl {
   font-family: 'Rubik Puddles', cursive;
   font-size: 3.9em;
-  color: rgb(167, 229, 242);
+  color: rgb(27, 180, 246);
   border-bottom:0.1em solid rgb(27, 180, 246);
   padding: 0.4em;
 }
 
+/*bilden på sidan*/
 .vila {
   width: 100%;
 }
 
+/*texten på sidan*/
 .loflo {
   font-family: 'Noto Serif Display', serif;
   align-self: center;
@@ -193,18 +207,21 @@ font-size: 2em;
 .hb {
   font-family: 'Rubik Puddles', cursive;
   font-size: 3.9em;
-  color: rgb(167, 229, 242);
+  color: rgb(27, 180, 246);
   border-bottom:0.1em solid rgb(27, 180, 246);
   padding: 0.4em;
 }
 
+/*bilden på sidan*/
 .ut {
   width: 100%;
 }
 
+/*texten på sidan, gör så det blir litte mellanrum mellan bilden och botten av sidan*/
 .bjornlor {
   padding-bottom: 2em;
   padding-top: 2em;
+  font-family: 'Noto Serif Display', serif;
 }
 
 
@@ -212,20 +229,23 @@ font-size: 2em;
 .hc {
   font-family: 'Rubik Puddles', cursive;
   font-size: 3.9em;
-  color: rgb(167, 229, 242);
+  color: rgb(27, 180, 246);
   border-bottom:0.1em solid rgb(27, 180, 246);
   padding: 0.4em;
 }
 
+/*bilden på sidan*/
 .fem {
   width: 85%;
 }
 
+/*texten på sidan*/
 .korvlor {
   font-family: 'Noto Serif Display', serif;
   align-self: center;
 }
 
+/*anpassar h1 på sidan vid mindre skärmar*/
 @media only screen and (max-width: 414px) {
   .hb, .hc, .hl {
     font-size: 3em;
